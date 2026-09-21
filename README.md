@@ -42,7 +42,7 @@ Covers **3 hospital branches** (Central Hospital, Westside Clinic, Eastside Clin
 
 `appointments` sits at the center as the fact table, linking `patients` and `doctors` dimensions and cascading into `treatments` → `billing` for a complete patient-to-payment view.
 
-![Data Model](screenshots/data_model.png)
+<img width="850" height="628" alt="Screenshot 2026-09-21 092308" src="https://github.com/user-attachments/assets/eb1f9136-d797-4c4e-8303-f3b640df82c1" />
 
 **Enrichment (calculated columns):** `Age`, `Age Group`, `Month` (appointment month), `Experience Level` (doctor tenure band) — added for segmentation and correct chronological/category sorting.
 
@@ -132,7 +132,8 @@ Three report pages moving from patient-level detail to financial performance —
 
 KPI cards, appointment-trend area chart, status pie & donut, and a Month slicer.
 
-![Executive Dashboard](screenshots/executive_dashboard.png)
+<img width="1161" height="651" alt="Screenshot 2026-09-21 092354" src="https://github.com/user-attachments/assets/696b26dc-88e3-4f7c-a765-49f3d55d7fbf" />
+
 
 | KPI | Value |
 |---|---|
@@ -149,7 +150,8 @@ KPI cards, appointment-trend area chart, status pie & donut, and a Month slicer.
 
 Cancellation/no-show stacked bar by doctor, doctor-wise revenue funnel, revenue & doctor count by specialization, appointment trend by doctor, and a Doctor ID slicer.
 
-![Doctors' Performance](screenshots/doctors_performance.png)
+<img width="1152" height="652" alt="Screenshot 2026-09-21 092807" src="https://github.com/user-attachments/assets/3744cf25-351b-4b1f-8d5d-73d7e04d9003" />
+
 
 - **Top revenue doctor:** Sarah Taylor (82.70K)
 - **Highest combined risk (cancellation + no-show):** Sarah Smith (58.82%)
@@ -159,7 +161,8 @@ Cancellation/no-show stacked bar by doctor, doctor-wise revenue funnel, revenue 
 
 Billing by payment method, billed amount by doctor experience, billed-vs-collected trend, billed amount by age group, and a doctor billing detail table.
 
-![Financials](screenshots/financials.png)
+<img width="1161" height="656" alt="Screenshot 2026-09-21 094044" src="https://github.com/user-attachments/assets/6f9f1dd1-6454-4e38-af30-4bd067989305" />
+
 
 - **Payment method mix:** Credit Card (36.53%), Insurance (33.04%), Cash (30.42%)
 - **Highest-billing age group:** 18–35 (237.95K, 31.5% of total)
@@ -216,11 +219,3 @@ Billing by payment method, billed amount by doctor experience, billed-vs-collect
 3. If prompted, update the data source paths to point to the `data/` folder.
 4. Explore the three report pages via the tabs at the bottom of the report canvas.
 
-## 👤 Author
-
-**[Your Name]**
-*Business Intelligence & Analytics (Power BI) Project*
-
-## 📄 License
-
-This project is for educational/portfolio purposes. Dataset is synthetic/sample data.
